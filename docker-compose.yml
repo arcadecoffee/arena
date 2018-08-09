@@ -1,4 +1,6 @@
 arena:
   build: .
+  volumes:
+    - /opt/sparefoot/apps/arena:/var/www/html
   ports:
     - "8080:80"
